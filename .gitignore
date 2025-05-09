@@ -22,7 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
+.env
 # Local files
 *.local# Logs
 logs

@@ -8,15 +8,15 @@ import HomeHeroSection from "./components/HomeHeroSection";
 function App() {
   return (
     <BrowserRouter>
-    <Header></Header>
-   
+    <Header>
+   </Header>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/all-movies" element={<AllMovies />} />
         <Route path="/movie" element={<Movie />} />
       </Routes>
     
-    <HomeHeroSection></HomeHeroSection>
+    
     </BrowserRouter> 
   );
 }
